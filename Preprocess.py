@@ -165,8 +165,8 @@ def main():
     text_NACC_df = custom_tokenizer_to_df(nlp, doc_NACC)
 
     # update user on length of tokens
-    print("Processing %s word document (OpinionArticles)" % len(doc_OpinionArticles))
-    print("Processing %s word document (NACC)" % len(doc_NACC))
+    print("Processing %s-word document (OpinionArticles)" % len(doc_OpinionArticles))
+    print("Processing %s-word document (NACC)" % len(doc_NACC))
 
     # Filter out non interested tokens by assigning label
     filter_noninterested_text(text_OpinionArticles_df)

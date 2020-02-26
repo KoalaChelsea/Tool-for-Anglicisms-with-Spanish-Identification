@@ -6,8 +6,8 @@ def main():
     SpacyTokenizer_csv_NACC = pd.read_csv('Output/NACCf27k-text-TASI.csv', encoding='utf-8')
     SpacyTokenizer_csv_df_OA = pd.DataFrame(SpacyTokenizer_csv_OA)
     SpacyTokenizer_csv_df_NACC = pd.DataFrame(SpacyTokenizer_csv_NACC)
-    print("Processing %s word in spacy tokenizer document (OpinionArticles)" % len(SpacyTokenizer_csv_df_OA))
-    print("Processing %s word in spacy tokenizer document (NACC)" % len(SpacyTokenizer_csv_df_NACC))
+    print("Processing %s words in spacy tokenizer document (OpinionArticles)" % len(SpacyTokenizer_csv_df_OA))
+    print("Processing %s words in spacy tokenizer document (NACC)" % len(SpacyTokenizer_csv_df_NACC))
 
 
     # read Goldstandard file
@@ -15,8 +15,8 @@ def main():
     GoldStandard_tsv_NACC = pd.read_csv('Data/NACC27k-GoldStandard.tsv', sep='\t', encoding='utf-8')
     GoldStandard_csv_df_OA = pd.DataFrame(GoldStandard_csv_OA)
     GoldStandard_tsv_df_NACC = pd.DataFrame(GoldStandard_tsv_NACC)
-    print("Processing %s word in gold standard document (OpinionArticles)" % len(GoldStandard_csv_df_OA))
-    print("Processing %s word in gold standard document (NACC)" % len(GoldStandard_tsv_df_NACC))
+    print("Processing %s words in gold standard document (OpinionArticles)" % len(GoldStandard_csv_df_OA))
+    print("Processing %s words in gold standard document (NACC)" % len(GoldStandard_tsv_df_NACC))
 
 
     # check the difference between two files of OpinionArticles
@@ -39,7 +39,7 @@ def main():
     target_full_df_OA.rename(columns={'Anglicism_y': 'Anglicism'}, inplace=True)
     target_full_df_OA.rename(columns={'Language_y': 'Language'}, inplace=True)
     target_full_df_OA.drop_duplicates(keep='first', inplace=True)
-    print("Processing %s word in target document (OpinionArticles)" % len(target_full_df_OA))
+    print("Processing %s words in target document (OpinionArticles)" % len(target_full_df_OA))
     print(target_full_df_OA.columns)
 
     # df of interested tokens of NACC
@@ -49,7 +49,7 @@ def main():
     target_full_df_NACC.rename(columns={'Anglicism_y': 'Anglicism'}, inplace=True)
     target_full_df_NACC.rename(columns={'Language_y': 'Language'}, inplace=True)
     target_full_df_NACC.drop_duplicates(keep='first', inplace=True)
-    print("Processing %s word in target document (NACC)" % len(target_full_df_NACC))
+    print("Processing %s words in target document (NACC)" % len(target_full_df_NACC))
     print(target_full_df_NACC.columns)
 
     # write to csv
