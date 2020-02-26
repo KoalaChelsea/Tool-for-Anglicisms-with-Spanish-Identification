@@ -562,7 +562,6 @@ bandera
 bando
 baño
 banquete
-bar
 barato
 barba
 barbaridad
@@ -905,7 +904,6 @@ clientela
 clima
 clínica
 clínico
-club
 cobrar
 cobre
 coche
