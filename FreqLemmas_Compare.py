@@ -54,11 +54,14 @@ def main():
     # Merge eng and spn to check overlapping
     outer_df = pd.merge(df_eng, df_spn, on='Token', how='outer', indicator='Exist')
     diff_df = outer_df.loc[outer_df['Exist'] == 'both']
-    print("Number of tokens in both high frequency list is %s" % len(diff_df))
+    print("Number of tokens in both high frequent lists is %s" % len(diff_df))
     diff_df.to_csv(r'Output/diff_df_High_Freq.csv', index=None, header=True)
 
+    # Exclude the overlapping list from Eng frequent list
+    new_df_eng = df_eng[~df_eng['Token'].isin(diff_df['Token'])].dropna()
+
     # Merge eng and spn together for N-gram training
-    df = pd.concat([df_eng, df_spn])
+    df = pd.concat([new_df_eng, df_spn])
     print('Distribution of Language\n', df['Language'].value_counts())
 
     lang_label = df["Language"]
