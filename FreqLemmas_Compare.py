@@ -1,22 +1,21 @@
 import spacy
 import pandas as pd
-import numpy as np
 from spacy.tokenizer import Tokenizer
-from spacy.lang.en import English
-import re
-from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
-from sklearn import svm
 from sklearn.utils import shuffle
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
+
 def main():
+    print("Processing %s rows in Eng High Freq" % len(
+        open("Data/Training/EngHighFreqLemmas.txt", encoding="utf8").readlines()))
+    print("Processing %s rows in Spn High Freq" % len(
+        open("Data/Training/SpnHighFreqLemmas.txt", encoding="utf8").readlines()))
 
     EngFreqLemmas = open("Data/Training/EngHighFreqLemmas.txt", encoding="utf8").read()
     SpnFreqLemmas = open("Data/Training/SpnHighFreqLemmas.txt", encoding="utf8").read()
@@ -24,8 +23,7 @@ def main():
     EngFreqLemmas = EngFreqLemmas.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ").replace("  ", " ")
     SpnFreqLemmas = SpnFreqLemmas.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ").replace("  ", " ")
 
-    print("Processing %s rows in Eng High Freq" % len(open("Data/Training/EngHighFreqLemmas.txt").readlines()))
-    print("Processing %s rows in Spn High Freq" % len(open("Data/Training/SpnHighFreqLemmas.txt").readlines()))
+
 
     # tokenize english freq list
     nlp_en = spacy.load("en_core_web_sm")
