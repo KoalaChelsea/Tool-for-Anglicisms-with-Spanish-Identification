@@ -140,13 +140,13 @@ def main():
     print("Processing %s-word OpinionArticles using english tokenizer" % len(doc_OpinionArticles_en))
 
     # Check difference using different tokenizer
+    text_OpinionArticles_df_es.drop_duplicates(keep='first', inplace=True)
+    text_OpinionArticles_df_en.drop_duplicates(keep='first', inplace=True)
     outer_df_OA = pd.merge(text_OpinionArticles_df_es, text_OpinionArticles_df_en,
                            on=['Token', 'Lemma'], how='outer', indicator='Exist')
-    diff_df_OA = outer_df_OA.loc[outer_df_OA['Exist'] != 'both']
+    diff_df_OA = outer_df_OA.loc[outer_df_OA['Exist'] != 'both'].sort_values(by=['Token'])
     print("Number of non-matching token for OpinionArticles using different tokenizer is %s" % len(diff_df_OA))
     diff_df_OA.to_csv(r'Output/diff_token_es_en.csv', index=None, header=True)
-
-
 
 
 if __name__ == '__main__':
