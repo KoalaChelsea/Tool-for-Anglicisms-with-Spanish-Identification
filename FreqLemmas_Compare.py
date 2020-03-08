@@ -23,8 +23,6 @@ def main():
     EngFreqLemmas = EngFreqLemmas.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ").replace("  ", " ")
     SpnFreqLemmas = SpnFreqLemmas.strip().replace("\n", " ").replace("\r", " ").replace("\r\n", " ").replace("  ", " ")
 
-
-
     # tokenize english freq list
     nlp_en = spacy.load("en_core_web_sm")
     tokenizer_en = Tokenizer(nlp_en.vocab)

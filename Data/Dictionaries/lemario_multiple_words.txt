@@ -33,7 +33,7 @@ a pari
 a posteriori
 a priori
 a quo
-arate caveat
+arate cavate
 ares y mares
 a sensu contrario
 a símili
@@ -188,6 +188,7 @@ stábat mater
 statu quo
 stricto sensu
 sub iúdice
+sub júdice
 sui géneris
 tábula gratulatoria
 tábula rasa
