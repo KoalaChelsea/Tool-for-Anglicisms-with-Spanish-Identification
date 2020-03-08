@@ -68,7 +68,7 @@ def main():
     # count unique words in each dictionary
     print("Processing %s unique words in Spn High Freq" % len(df_spn_freq))
     print("Processing %s unique words in lemario-espanol-2002-10-25" % len(df_spn1))
-    print("Processing %s unique words in lemario-utf8 one word version" % len(df_spn2))
+    print("Processing %s unique words in one word from lemario-utf8.txt" % len(df_spn2))
 
     # Merge eng and spn to check overlapping
     outer_df = pd.merge(df_spn1, df_spn2, on='Token', how='outer', indicator='Exist')
