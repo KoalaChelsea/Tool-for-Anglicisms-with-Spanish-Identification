@@ -1,0 +1,43 @@
+text-token,token-char,Token,Adapted,EngCategory,POS,NE,Lemma,Tag,Language,Candidate,Anglicism,Exist
+31-13,3453-3456,80%,_,_,,,,,,,,left_only
+32-38,3785-3788,15%,_,_,,,,,,,,left_only
+40-18,4899-4901,US,_,_,,,,,,,,left_only
+40-19,4901-4905,$870,_,_,,,,,,,,left_only
+41-35,5256-5270,"fraude""gracias",_,_,,,,,,,,left_only
+221-2,32182-32197,Dell'Arciprette,_,_,,,,,,,,left_only
+289-13,40747-40754,O'Hagan,_,_,,,,,,,,left_only
+320-1,45343-45355,Continuará.C,_,_,,,,,,,,left_only
+327-6,46562-46565,65%,_,_,,,,,,,,left_only
+416-23,58604-58613,revisadas,_,_,,,,,,,,left_only
+461-23,62872-62875,DVD,_,_,,,,,,,,left_only
+476-9,64767-64773,People,false[32],Named Entity[32],,,,,,,,left_only
+476-11,64774-64775,s,false[32],Named Entity[32],,,,,,,,left_only
+477-11,64921-64924,10%,_,_,,,,,,,,left_only
+477-27,64986-64989,25%,_,_,,,,,,,,left_only
+510-5,69245-69250,"12,8%",_,_,,,,,,,,left_only
+,,...,,,PUNCT,O,...,Punctuation,PUNCT,False,False,right_only
+,,...,,,PUNCT,O,...,Punctuation,PUNCT,False,False,right_only
+,,...,,,PUNCT,O,...,Punctuation,PUNCT,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,%,,,SYM,O,%,Punctuation,SYM,False,False,right_only
+,,US$,,,PROPN,B,US$,PROPN___,PROPN,False,False,right_only
+,,870,,,NUM,O,870,Number,NUM,False,False,right_only
+,,fraude,,,NOUN,O,fraude,NOUN__Gender=Masc|Number=Sing,,True,,right_only
+,,Dell,,,PROPN,I,Dell,PROPN___,PROPN,False,False,right_only
+,,Arciprette,,,PROPN,I,Arciprette,PROPN___,PROPN,False,False,right_only
+,,Hagan,,,PROPN,I,Hagan,PROPN___,PROPN,False,False,right_only
+,,Continuará,,,VERB,B,Continuará,VERB__Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin,Name Entity,False,False,right_only
+,,C,,,PROPN,B,C,PROPN___,PROPN,False,False,right_only
+,,65,,,NUM,O,65,Number,NUM,False,False,right_only
+,,cantidad,,,NOUN,O,cantidad,NOUN__Gender=Fem|Number=Sing,,True,,right_only
+,,revisadas,,,PROPN,O,revisadas,PROPN___,PROPN,False,False,right_only
+,,¿o,,,VERB,O,¿o,VERB__Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin,,True,,right_only
+,,de,,,ADJ,O,de,ADJ__Gender=Fem|Number=Plur,,True,,right_only
+,,DVD,,,NOUN,B,DVD,NOUN__Gender=Masc|Number=Sing,Name Entity,False,False,right_only
+,,Peoples,,,PROPN,I,Peoples,PROPN___,PROPN,False,False,right_only
+,,25,,,NUM,O,25,Number,NUM,False,False,right_only
+,,"12,8",,,NUM,O,"12,8",Number,NUM,False,False,right_only
