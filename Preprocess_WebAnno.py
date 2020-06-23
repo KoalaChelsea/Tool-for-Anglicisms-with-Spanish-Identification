@@ -14,7 +14,7 @@ def main():
                                           quoting=csv.QUOTE_NONE, encoding='utf-8', index_col=False,
                                           names=["text-token", "token-char", "Token", "star", "Adapted", "EngCategory"])
     OpinionArticles_Webanno.drop(["star"], axis=1, inplace=True)
-
+    OpinionArticles_Webanno.to_csv(r'Data/WebAnno/OpinionArticles-text-GS.csv', index=None, header=True)
     print("Processing %s tokens from WebAnno (OpinionArticles)" % len(OpinionArticles_Webanno))
     print(OpinionArticles_Webanno.head())
 
