@@ -1,1 +1,10 @@
 Token,POS,NE,Lemma,Tag,Language_x,Candidate,Anglicism_x,New_Index,Language_y,Anglicism_y,Adapted,Exist
+Larrysanger.org,PROPN,B,Larrysanger.org,URL,PROPN,False,False,,,,,left_only
+Educ.ar,PROPN,B,Educ.ar,URL,PROPN,False,False,,,,,left_only
+Educ.ar,PROPN,B,Educ.ar,URL,PROPN,False,False,,,,,left_only
+Larrysanger,,,,,,,,11239.0,,FALSE,,right_only
+org,,,,,,,,11241.0,,FALSE,,right_only
+Educ,,,,,,,,12070.0,,FALSE,,right_only
+Educ,,,,,,,,12094.0,,FALSE,,right_only
+ar,,,,,,,,12072.0,,FALSE,,right_only
+ar,,,,,,,,12096.0,,FALSE,,right_only

@@ -30,10 +30,16 @@ def main():
     diff_df_OA = outer_df_OA.loc[outer_df_OA['Exist'] != 'both']
     print("Number of non-matching token for OpinionArticles is %s" % len(diff_df_OA))
     diff_df_OA.to_csv(r'Data/WebAnno/diff-token.csv', index=None, header=True)
-    print(diff_df_OA)
 
 
-
+    # combine with labels
+    OpinionArticles_Webanno.drop(['text-token', 'token-char'], axis=1, inplace=True)
+    SpacyTokenizer_csv_df_OA.drop(['Lemma', 'Tag', 'Candidate', 'Language', 'Anglicism'], axis=1, inplace=True)
+    inner_df_OA = pd.merge(OpinionArticles_Webanno, SpacyTokenizer_csv_df_OA, on='Token', how='inner')
+    print(inner_df_OA.columns)
+    inner_df_OA.drop_duplicates(keep='first', inplace=True)
+    print(len(inner_df_OA))
+    inner_df_OA.to_csv(r'Data/WebAnno/target-token-df.csv', index=None, header=True)
 
 
 if __name__ == '__main__':

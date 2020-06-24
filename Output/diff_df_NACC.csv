@@ -1,49 +1,49 @@
 Token,POS,NE,Lemma,Tag,Language_x,Candidate,Anglicism_x,Language_y,Anglicism_y,Exist
 ﻿27,PROPN,B,﻿27,PROPN___,PROPN,False,False,,,left_only
-27. 000,NUM,O,27,Number,NUM,False,False,,,left_only
-27. 000,NUM,O,27,Number,NUM,False,False,,,left_only
-16. 30,NUM,O,16,Number,NUM,False,False,,,left_only
-16. 30,NUM,O,16,Number,NUM,False,False,,,left_only
-8. 274,NUM,O,8,Number,NUM,False,False,,,left_only
-13. 000,NUM,O,13,Number,NUM,False,False,,,left_only
+27. 000,NUM,O,27. 000,Number,NUM,False,False,,,left_only
+27. 000,NUM,O,27. 000,Number,NUM,False,False,,,left_only
+16. 30,NUM,O,16. 30,Number,NUM,False,False,,,left_only
+16. 30,NUM,O,16. 30,Number,NUM,False,False,,,left_only
+8. 274,NUM,O,8. 274,Number,NUM,False,False,,,left_only
+13. 000,NUM,O,13. 000,Number,NUM,False,False,,,left_only
 C5N,PROPN,B,C5N,PROPN___,PROPN,False,False,,,left_only
-"19, 1",NUM,O,19,Number,NUM,False,False,,,left_only
-"15, 3",NUM,O,15,Number,NUM,False,False,,,left_only
-"16, 4",NUM,O,16,Number,NUM,False,False,,,left_only
+"19, 1",NUM,O,"19, 1",Number,NUM,False,False,,,left_only
+"15, 3",NUM,O,"15, 3",Number,NUM,False,False,,,left_only
+"16, 4",NUM,O,"16, 4",Number,NUM,False,False,,,left_only
 S,PROPN,I,S,PROPN___,PROPN,False,False,,,left_only
 S,PROPN,I,S,PROPN___,PROPN,False,False,,,left_only
 S,PROPN,I,S,PROPN___,PROPN,False,False,,,left_only
-10. 000,NUM,O,10,Number,NUM,False,False,,,left_only
-10. 000,NUM,O,10,Number,NUM,False,False,,,left_only
+10. 000,NUM,O,10. 000,Number,NUM,False,False,,,left_only
+10. 000,NUM,O,10. 000,Number,NUM,False,False,,,left_only
 P,PROPN,I,P,PROPN___,PROPN,False,False,,,left_only
-"37, 500",NUM,O,37,Number,NUM,False,False,,,left_only
-60. 000,NUM,O,60,Number,NUM,False,False,,,left_only
-"1, 67",NUM,O,1,Number,NUM,False,False,,,left_only
+"37, 500",NUM,O,"37, 500",Number,NUM,False,False,,,left_only
+60. 000,NUM,O,60. 000,Number,NUM,False,False,,,left_only
+"1, 67",NUM,O,"1, 67",Number,NUM,False,False,,,left_only
 Sr,PROPN,B,Sr,PROPN___,PROPN,False,False,,,left_only
-35. 000,NUM,O,35,Number,NUM,False,False,,,left_only
-180. 000,NUM,O,180,Number,NUM,False,False,,,left_only
-3. 500,NUM,O,3,Number,NUM,False,False,,,left_only
-"2, 5",NUM,O,2,Number,NUM,False,False,,,left_only
-"2, 5",NUM,O,2,Number,NUM,False,False,,,left_only
-2. 000,NUM,I,2,Number,NUM,False,False,,,left_only
-22. 30,NUM,O,22,Number,NUM,False,False,,,left_only
-22. 30,NUM,O,22,Number,NUM,False,False,,,left_only
-21. 30,NUM,O,21,Number,NUM,False,False,,,left_only
+35. 000,NUM,O,35. 000,Number,NUM,False,False,,,left_only
+180. 000,NUM,O,180. 000,Number,NUM,False,False,,,left_only
+3. 500,NUM,O,3. 500,Number,NUM,False,False,,,left_only
+"2, 5",NUM,O,"2, 5",Number,NUM,False,False,,,left_only
+"2, 5",NUM,O,"2, 5",Number,NUM,False,False,,,left_only
+2. 000,NUM,O,2. 000,Number,NUM,False,False,,,left_only
+22. 30,NUM,O,22. 30,Number,NUM,False,False,,,left_only
+22. 30,NUM,O,22. 30,Number,NUM,False,False,,,left_only
+21. 30,NUM,O,21. 30,Number,NUM,False,False,,,left_only
 W,PROPN,I,W,PROPN___,PROPN,False,False,,,left_only
-20. 15,NUM,O,20,Number,NUM,False,False,,,left_only
-"1, 220",NUM,O,1,Number,NUM,False,False,,,left_only
-"1, 183",NUM,O,1,Number,NUM,False,False,,,left_only
-"1, 170",NUM,O,1,Number,NUM,False,False,,,left_only
-"1, 060",NUM,O,1,Number,NUM,False,False,,,left_only
-16. 10,NUM,O,16,Number,NUM,False,False,,,left_only
-"1, 26",NUM,O,1,Number,NUM,False,False,,,left_only
-"1, 69",NUM,O,1,Number,NUM,False,False,,,left_only
-16. 24,NUM,I,16,Number,NUM,False,False,,,left_only
-130. 000,NUM,O,130,Number,NUM,False,False,,,left_only
-27. 860,NUM,O,27,Number,NUM,False,False,,,left_only
-"4, 3",NUM,O,4,Number,NUM,False,False,,,left_only
-28. 100,NUM,O,28,Number,NUM,False,False,,,left_only
-27. 520,NUM,O,27,Number,NUM,False,False,,,left_only
+20. 15,NUM,O,20. 15,Number,NUM,False,False,,,left_only
+"1, 220",NUM,O,"1, 220",Number,NUM,False,False,,,left_only
+"1, 183",NUM,O,"1, 183",Number,NUM,False,False,,,left_only
+"1, 170",NUM,O,"1, 170",Number,NUM,False,False,,,left_only
+"1, 060",NUM,O,"1, 060",Number,NUM,False,False,,,left_only
+16. 10,NUM,O,16. 10,Number,NUM,False,False,,,left_only
+"1, 26",NUM,O,"1, 26",Number,NUM,False,False,,,left_only
+"1, 69",NUM,O,"1, 69",Number,NUM,False,False,,,left_only
+16. 24,NUM,O,16. 24,Number,NUM,False,False,,,left_only
+130. 000,NUM,O,130. 000,Number,NUM,False,False,,,left_only
+27. 860,NUM,O,27. 860,Number,NUM,False,False,,,left_only
+"4, 3",NUM,O,"4, 3",Number,NUM,False,False,,,left_only
+28. 100,NUM,O,28. 100,Number,NUM,False,False,,,left_only
+27. 520,NUM,O,27. 520,Number,NUM,False,False,,,left_only
 000,,,,,,,,NUM,no,right_only
 000,,,,,,,,NUM,no,right_only
 000,,,,,,,,NUM,no,right_only

@@ -142,7 +142,7 @@ def filter_noninterested_text(df):
 
 def main():
     # Default read text in spanish
-    nlp = spacy.load('es_core_news_sm')
+    nlp = spacy.load('es_core_news_md')
 
     # Tokenize text using custom tokenizer
     nlp.tokenizer = custom_tokenizer_modified(nlp)
